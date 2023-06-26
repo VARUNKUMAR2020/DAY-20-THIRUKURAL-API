@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>THIRUKURAL</title>
+  <link rel="icon" href="./assets/thiruvalluvar.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="h1 text-center"><img src="./assets/thiruvalluvar.png" alt="thiruvalluvar">திருக்குறள் <sub><sub>-
+          திருவள்ளுவர்</sub></sub></h1>
+  </header>
+
+  <section class="input">
+    <input  id="kuralNum"  type="number" placeholder="குறள் எண்">
+    <button type="submit" onclick="getKural()">சமர்ப்பிக்க</button>
+  </section>
+  <h4 class="h4">குறள்:-</h4>
+  <section class="thirukural">
+    <div id="line1"></div>
+    <div id="line2"></div>
+  </section>
+  <h4 class="h4">பொருள்:-</h4>
+  <section class="meaning">
+    <div id="meaning"></div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
